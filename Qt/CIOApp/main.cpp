@@ -1,11 +1,28 @@
 #include "mainwindow.h"
+#include "wiindow.h"
 #include <QApplication>
+#include <QPushButton>
+#include <string.h>
+
+
+using namespace std;
 
 int main(int argc, char *argv[])
 {
+
     QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
+
+    //Variables a afficher composantees de l'objet
+
+
+    //
+   Wiindow fenetre;
+
+
+
+    fenetre.show();
+   // MainWindow w;
+    //w.show();
 
     return a.exec();
 }
