@@ -8,3 +8,6 @@ npm install --global yo bower grunt-cli
 
 Entrer dans le dossier du projet :
 cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
+
+Puis lancer la commande :
+yo meanstack
