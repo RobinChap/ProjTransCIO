@@ -1,0 +1,10 @@
+Partie NodeJS :
+
+Installation de MEAN Stack : 
+sudo npm install -g generator-meanstack
+
+Installation de Yeoman : 
+npm install --global yo bower grunt-cli
+
+Entrer dans le dossier du projet :
+cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
