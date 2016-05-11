@@ -12,4 +12,13 @@ cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
 Puis lancer la commande :
 yo meanstack
 
-Abandon de la MEAN Stack ( problème yeoman réglé avec Alexis )
+Abandon de la MEAN stack ( roblème rencontré)
+
+Entrer dans le dossier du projet :
+cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
+
+npm install 
+
+npm install express
+
+npm install ejs 
