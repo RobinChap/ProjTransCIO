@@ -35,10 +35,10 @@ double res=0.;
 int main(int N, char * P[])
 {
 double v;
-    while(1){
+
     v = cpuPcent();
     printf("Le Pcentage CPU instantanne est %g\n", v);
-    }
+
     return 0;
 }
 
