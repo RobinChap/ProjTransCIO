@@ -1,15 +1,15 @@
-var express = require('express');
+var app = require('express').createServer();
+var io = require('socket.io')(app);
 
-var app = express();
+app.listen(80);
 
-app.get('/etage/:etagenum/chambre', function(req, res) {
-    res.render('gauge.jade', {etage: req.params.etagenum});
+app.get('/', function (req, res) {
+  res.sendfile(__dirname + '/index.html');
 });
 
-
-app.use(function(req, res, next){
-    res.setHeader('Content-Type', 'text/plain');
-    res.status(status).send(body)
+io.on('connection', function (socket) {
+  socket.emit('news', { hello: 'world' });
+  socket.on('my other event', function (data) {
+    console.log(data);
+  });
 });
-
-app.listen(8080);
