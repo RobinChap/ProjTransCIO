@@ -11,3 +11,5 @@ cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
 
 Puis lancer la commande :
 yo meanstack
+
+Abandon de la MEAN Stack ( problème yeoman réglé avec Alexis )

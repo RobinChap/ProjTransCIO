@@ -1,5 +1,9 @@
-var app = require('./app');
+var EventEmitter = require('events').EventEmitter;
 
-require('http').createServer(app).listen(app.get('port'), function () {
-    console.log('Express (' + app.get('env') + ') server listening on port ' + app.get('port'));
+var jeu = new EventEmitter();
+
+jeu.on('gameover', function(message){
+    console.log(message);
 });
+
+jeu.emit('gameover', 'Vous avez perdu !');
