@@ -22,3 +22,7 @@ npm install
 npm install express
 
 npm install ejs 
+
+npm install jade 
+
+npm install socket.io
