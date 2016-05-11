@@ -1,7 +1,7 @@
 /*
  * execute.c : client TCP qui envoie une commande a executer sur le serveur
  * puis attend le resultat sur le socket
- * 
+ *
  */
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,7 +31,7 @@ struct hostent *h;
 char nom[LBUF], addr[LBUF];
 uint32_t cle;
 
-    /* test de la fct chif4 */
+    /* test de la fct chif4
     cle = (uint32_t)time(NULL);
     strcpy(nom,"il fait beau mais il fait froid !");
     Trace(nom, 16);
@@ -39,7 +39,7 @@ uint32_t cle;
     Trace(nom, 16);
     chif4(nom,20, cle);
     Trace(nom, 16);
-    return 0; 
+    return 0; */
     if (N != 4 ) {
         fprintf(stderr,"Utilisation : %s nom_serveur port commande\n",P[0]);
         exit(1);
