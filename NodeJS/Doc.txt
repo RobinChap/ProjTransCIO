@@ -7,29 +7,58 @@ Installation de Yeoman :
 npm install --global yo bower grunt-cli
 
 Entrer dans le dossier du projet :
-cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
+cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS/app
 
 Puis lancer la commande :
 yo meanstack
 
 Abandon de la MEAN stack ( problème rencontré )
 
+
 Entrer dans le dossier du projet :
-cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
+cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS/app
 
 npm install 
 
 npm install express
 
-npm install ejs ( non utilisé )
-
 npm install jade 
 
-npm install socket.io ( non utlisé )
+création de app.js
+
+installer les dépendances manquantes :
+npm install express-session
+npm install body-parser
+npm install cookie-parser
+npm install mongoose
+npm install path
 
 création du MVC ( models, views, controllers )
 
 création des routes
 
-création de PowerPoint
+lancer le serveur mongo via la commande :
+sudo mongod
+
+ouvrir une seconde fenetre en terminal et lancer la commande :
+node app.js ou node www.bin
+
+Problème : 
+
+Error: Cannot find module '.NodeJS/app/routes/index'
+    at Function.Module._resolveFilename (module.js:438:15)
+    at Function.Module._load (module.js:386:25)
+    at Module.require (module.js:466:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS/app/app.js:7:14)
+    at Module._compile (module.js:541:32)
+    at Object.Module._extensions..js (module.js:550:10)
+    at Module.load (module.js:456:32)
+    at tryModuleLoad (module.js:415:12)
+    at Function.Module._load (module.js:407:3)
+    at Function.Module.runMain (module.js:575:10)
+    at startup (node.js:160:18)
+    at node.js:445:3
+
+création du PowerPoint
 
