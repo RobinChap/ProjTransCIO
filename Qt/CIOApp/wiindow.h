@@ -2,7 +2,7 @@
 #define WIINDOW_H
 
 #include <QWidget>
-#include <QtWidgets>
+#include <QtGui>
 #include <QPushButton>
 #include <QObject>
 #include <QApplication>
