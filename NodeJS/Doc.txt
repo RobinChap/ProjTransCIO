@@ -1,4 +1,4 @@
-Partie NodeJS :
+Partie NodeJS : Auriles El Haddad
 
 Installation de MEAN Stack : 
 sudo npm install -g generator-meanstack
@@ -45,20 +45,7 @@ node app.js ou node www.bin
 
 Problème : 
 
-Error: Cannot find module '.NodeJS/app/routes/index'
-    at Function.Module._resolveFilename (module.js:438:15)
-    at Function.Module._load (module.js:386:25)
-    at Module.require (module.js:466:17)
-    at require (internal/module.js:20:19)
-    at Object.<anonymous> (/Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS/app/app.js:7:14)
-    at Module._compile (module.js:541:32)
-    at Object.Module._extensions..js (module.js:550:10)
-    at Module.load (module.js:456:32)
-    at tryModuleLoad (module.js:415:12)
-    at Function.Module._load (module.js:407:3)
-    at Function.Module.runMain (module.js:575:10)
-    at startup (node.js:160:18)
-    at node.js:445:3
+Error: Failed to lookup view "charts-gauge" in views directory "/Users/Auriles/.Trash/app 22.57.39/app/views"
 
 création du PowerPoint
 
