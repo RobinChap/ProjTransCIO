@@ -12,7 +12,7 @@ cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
 Puis lancer la commande :
 yo meanstack
 
-Abandon de la MEAN stack ( roblème rencontré)
+Abandon de la MEAN stack ( problème rencontré )
 
 Entrer dans le dossier du projet :
 cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS
@@ -21,8 +21,15 @@ npm install
 
 npm install express
 
-npm install ejs 
+npm install ejs ( non utilisé )
 
 npm install jade 
 
-npm install socket.io
+npm install socket.io ( non utlisé )
+
+création du MVC ( models, views, controllers )
+
+création des routes
+
+création de PowerPoint
+
