@@ -3,7 +3,7 @@ router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('mesures');
+  res.render('chartsAndGauge');
 });
 
 module.exports = router;

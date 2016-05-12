@@ -1,0 +1,10 @@
+Réalisation:
+
+- Installation de la machine virtuelle Linux avec SSH sans interface graphique.
+- Documentation
+
+
+Problèmes Rencontrés:
+
+- Faibles connaissances des langages de developpement (c/c++/node/qt)
+- Non compétence de création de méthode pour le protocole.

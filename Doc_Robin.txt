@@ -1,0 +1,19 @@
+Réalisation :
+
+- Partie Qt:
+
+- Création fenetre
+- Onglet "settings" pour IP et Port 
+- Onglets de stats 
+
+
+Partie Objet:
+
+- Connexion avec VM "Distante"
+- Commandes diagnostic d'objet
+
+
+Problèmes rencontrés:
+
+- Network manager qui attribue des ip au hasard aux interfaces réseaux
+- Qt sur windows = désagréable

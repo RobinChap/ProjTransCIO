@@ -1,3 +1,5 @@
+Réalisation :
+
 Partie NodeJS : Auriles El Haddad
 
 Installation de MEAN Stack : 
@@ -7,16 +9,19 @@ Installation de Yeoman :
 npm install --global yo bower grunt-cli
 
 Entrer dans le dossier du projet :
-cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS/app
+../NodeJS/app
 
 Puis lancer la commande :
 yo meanstack
 
 Abandon de la MEAN stack ( problème rencontré )
 
+Création des charts graphiques avec GoogleCharts
+
+Mise en lien sur une même page des jauges et du graphique
 
 Entrer dans le dossier du projet :
-cd /Users/Auriles/Documents/Projets/ObjectApp/ProjTransCIO/NodeJS/app
+cd ../NodeJS/app
 
 npm install 
 
@@ -41,11 +46,21 @@ lancer le serveur mongo via la commande :
 sudo mongod
 
 ouvrir une seconde fenetre en terminal et lancer la commande :
-node app.js ou node www.bin
+node app.js 
 
-Problème : 
-
-Error: Failed to lookup view "charts-gauge" in views directory "/Users/Auriles/.Trash/app 22.57.39/app/views"
+ouvrir le navigateur, entrez l'ip : http://127.0.0.1:3006/ 
 
 création du PowerPoint
+
+
+Problèmes rencontrés lors du projet : 
+
+- Organisation des membres de l'équipe
+- Tâches non effectuées
+- Difficultés de couplage entre les deux chartes graphiques de GoogleCharts
+- Programme semi-fonctionnel
+- Problème lors de l'utilisation de la MEAN Stack ( MongoDB, Express, AngularJS, NodeJS ) 
+- Problème lors de l'intégration de l'objet 
+- Problème lors du chargement des graphiques 
+( Error: Failed to lookup view "charts-gauge" in views directory "/Users/Auriles/.Trash/app 22.57.39/app/views" )
 
