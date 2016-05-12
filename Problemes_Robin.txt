@@ -1,0 +1,4 @@
+Problèmes rencontrés:
+1) network manager qui attribue des ip au hazard a mes interfaces réseau
+2) Qt sur windows = pas cool
+3) 
