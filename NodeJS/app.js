@@ -12,7 +12,7 @@ var app = express();
 app.listen(3006);
 
 // view engine setup
-app.set('views', path.join(__dirname, 'app/views'));
+app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'jade');
 
 app.use(bodyParser.json());
