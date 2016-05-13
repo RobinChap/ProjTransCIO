@@ -23,17 +23,24 @@ public:
 public slots:
     void ChangePort(int p_port);
     void ChangeIP(QString p_IP);
+    void ChangeCommand(QString p_IP);
 
     void ProcStat();
     void RAMStat();
+    void OtherStat();
 private:
     int port;
     QString IP;
+    QString Scommande;
     QPushButton *fermer;
     QPushButton *Proc;
     QLabel *ProcTxt;
     QPushButton *RAM;
     QLabel *RAMTxt;
+    QPushButton *Other;
+    QLabel *OtherTxt;
+    QLabel *CommandTxt;
+    QLineEdit *Command;
     QLineEdit *IPfield;
     QLabel *Info;
     QSpinBox *Port;
