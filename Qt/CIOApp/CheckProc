@@ -1,0 +1,3 @@
+#!/bin/bash
+/home/robin/ProjTransCIO/Objet/Server/execute $1 $2 $3
+

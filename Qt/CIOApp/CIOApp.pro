@@ -13,9 +13,13 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-    wiindow.cpp
+    wiindow.cpp \
+    proc.cpp \
+    ram.cpp
 
 HEADERS  += \
-    wiindow.h
+    wiindow.h \
+    proc.h \
+    ram.h
 
 FORMS    += mainwindow.ui

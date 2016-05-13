@@ -1,8 +1,10 @@
-#include "mainwindow.h"
-#include "wiindow.h"
+
 #include <QApplication>
 #include <QPushButton>
 #include <string.h>
+#include <QObject>
+#include "mainwindow.h"
+#include "wiindow.h"
 
 
 using namespace std;
